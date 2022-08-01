@@ -13,6 +13,10 @@
 		3FF3E9CA28921F4100B0F962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF3E9C828921F4100B0F962 /* Main.storyboard */; };
 		3FF3E9CC28921F4100B0F962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF3E9CB28921F4100B0F962 /* Assets.xcassets */; };
 		3FF3E9CF28921F4100B0F962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF3E9CD28921F4100B0F962 /* LaunchScreen.storyboard */; };
+		3FF3E9EE28930EA500B0F962 /* InfoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3E9ED28930EA500B0F962 /* InfoTableTableViewController.swift */; };
+		3FF3E9F028930ECD00B0F962 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3E9EF28930ECD00B0F962 /* ChoiceViewController.swift */; };
+		3FF3E9F228930F4000B0F962 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3E9F128930F4000B0F962 /* Info.swift */; };
+		3FF3E9F42893117500B0F962 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3E9F32893117500B0F962 /* InfoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3FF3E9CB28921F4100B0F962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FF3E9CE28921F4100B0F962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FF3E9D028921F4100B0F962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF3E9ED28930EA500B0F962 /* InfoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableTableViewController.swift; sourceTree = "<group>"; };
+		3FF3E9EF28930ECD00B0F962 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		3FF3E9F128930F4000B0F962 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		3FF3E9F32893117500B0F962 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				3FF3E9C428921F4100B0F962 /* SceneDelegate.swift */,
 				3FF3E9C628921F4100B0F962 /* ViewController.swift */,
 				3FF3E9C828921F4100B0F962 /* Main.storyboard */,
+				3FF3E9F128930F4000B0F962 /* Info.swift */,
+				3FF3E9EF28930ECD00B0F962 /* ChoiceViewController.swift */,
+				3FF3E9F32893117500B0F962 /* InfoTableViewCell.swift */,
+				3FF3E9ED28930EA500B0F962 /* InfoTableTableViewController.swift */,
 				3FF3E9CB28921F4100B0F962 /* Assets.xcassets */,
 				3FF3E9CD28921F4100B0F962 /* LaunchScreen.storyboard */,
 				3FF3E9D028921F4100B0F962 /* Info.plist */,
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF3E9EE28930EA500B0F962 /* InfoTableTableViewController.swift in Sources */,
 				3FF3E9C728921F4100B0F962 /* ViewController.swift in Sources */,
+				3FF3E9F028930ECD00B0F962 /* ChoiceViewController.swift in Sources */,
+				3FF3E9F228930F4000B0F962 /* Info.swift in Sources */,
+				3FF3E9F42893117500B0F962 /* InfoTableViewCell.swift in Sources */,
 				3FF3E9C328921F4100B0F962 /* AppDelegate.swift in Sources */,
 				3FF3E9C528921F4100B0F962 /* SceneDelegate.swift in Sources */,
 			);
